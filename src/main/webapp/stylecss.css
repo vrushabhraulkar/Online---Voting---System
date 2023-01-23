@@ -1,0 +1,103 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0;
+	margin-top:0px;
+	background-image: url("https://static.toiimg.com/photo/msid-93277484/93277484.jpg");
+}
+nav{
+	
+	margin: 0px;
+	padding:25px;
+	font-size: 35px;
+	background-color: orange;
+	color:white;
+	display: flex;
+	justify-content: right;
+}
+nav a {
+	color:white;
+	margin-left: 10px;
+}
+nav a:hover {
+	color:black;
+}
+
+.formcontain{
+	background-color:#FEFCF3;
+	font-size: 30px; 
+	 width: 40%;
+	 display: flex;
+	 justify-content: center;
+	 margin-left: 55%;
+	 margin-top: 5%;
+	 padding-bottom: 50px;
+	 padding-left: 50px;
+	 padding-top: 30px;
+	 border-radius: 30px;
+	 
+	 
+}
+
+.formcontain input,textarea,select {
+	width: 300px;
+	height: 40px;
+	font-size: 30px;
+	background-color: #99b3ff;
+	align-content: center;
+	margin-left: 70px;
+}
+.formcontain button{
+	width: 300px;
+	height: 40px;
+	font-size: 30px;
+	cursor: pointer;
+	background-color: #99b3ff;
+	 border-radius: 30px;
+	 margin-left: 65px;
+}
+.formcontain a{
+	margin-left:170px;
+	color: black;
+}
+.formcontain a:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+.about{
+	font-family:Helvetica;
+	width:100vx;
+	height:80vh;
+	background-color: white;
+	opacity:0.8;
+	padding-left: 30px;
+	font-size: 25px;
+}
+
+.about p{
+	font-weight: bold;
+	padding-top:40px;
+	 
+}
+.about img{
+	width: 360px;
+	height: 250px;
+	margin-right: 20px;
+}
+
+.checkTable{
+	background-color: #FFF7E9;
+	height: 87vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+.checkTable img{
+	height: 80px;
+	width: 80px;
+}
+.checkTable td,th{
+	padding: 10px 60px;
+}
